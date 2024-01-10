@@ -1,0 +1,853 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* =================Typography=================== */
+/* color
+          black,white,gery*
+/* font-size: 2,4,6,8,10,12,16,20,24 */
+/* backgroundcolor: white,black */
+/* ========================================================== */
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+/* ===========navbar========= */
+#navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  background-color: rgb(94, 94, 102);
+  backdrop-filter: (10px);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+#navbar li {
+  list-style-type: none;
+  padding: 30px;
+  margin: -15px;
+}
+
+#navbar li a {
+  font-size: 14px;
+  color: rgb(19, 4, 4);
+  text-decoration: none;
+}
+/* #check1 {
+  display: none;
+}
+#level1 {
+  display: none;
+}
+#imageshow {
+  display: none;
+}
+@media (max-width: 413px) {
+  #label1 {
+    display: block;
+    margin-left: 300px;
+    padding: 10px;
+  }
+  .nav {
+    display: none;
+  }
+
+  #check1:checked ~ .nav {
+    display: block;
+  }
+  .nav li img {
+    width: 70px;
+    margin-right: 0px;
+  }
+  .down {
+    margin-left: 0px;
+  }
+  .nav li img {
+    display: none;
+  }
+  #imageshow {
+    display: block;
+    width: 70px;
+    float: left;
+    margin: 10px;
+  }
+ } */
+
+/* ==============navbar end================ */
+
+/* ===================opening logo section========= */
+#website_section {
+  display: none;
+}
+#openimg {
+  width: 150px;
+  padding-top: 270px;
+  border-radius: 50%;
+  position: absolute;
+}
+#start {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+}
+#start1 {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+}
+
+/* ==========open logo end================== */
+
+/* ============navbar conataint open======= */
+#showstore {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  padding-top: 50px;
+}
+#showstore div li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#showstore {
+  display: flex;
+}
+#showstore li {
+  list-style-type: none;
+  padding: 5px;
+}
+#showstore ul li a {
+  margin-left: 230px;
+}
+#showstore li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#small div li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#small li {
+  margin-left: -180px;
+}
+
+#small li a {
+  font-size: 12px;
+  color: white;
+}
+#small1 li {
+  margin-left: -190px;
+}
+#small1 div li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#small1 li a {
+  font-size: 12px;
+  color: white;
+}
+
+#showmac {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  padding-top: 50px;
+}
+#showmac {
+  display: flex;
+}
+#showmac li {
+  list-style-type: none;
+  padding: 5px;
+}
+#showmac li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showmac ul div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+
+#big li a {
+  font-size: 12px;
+  color: white;
+}
+#big li {
+  margin-left: 50px;
+}
+#bg li {
+  margin-left: 230px;
+}
+#bg section li a {
+  font-size: 12px;
+  color: white;
+}
+
+#bg1 {
+  color: white;
+}
+#bg2 {
+  color: white;
+}
+
+#big2 div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#big2 li {
+  margin-left: 40px;
+}
+#big2 li a {
+  font-size: 12px;
+  color: white;
+}
+#showipad {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  padding-top: 50px;
+}
+#showipad {
+  display: flex;
+}
+#showipad li {
+  list-style-type: none;
+  padding: 5px;
+}
+#showipad li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showipad ul div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+
+#big1 li a {
+  font-size: 12px;
+  color: white;
+}
+#big1 li {
+  margin-left: 50px;
+}
+#bg1 li {
+  margin-left: 230px;
+}
+#bg1 section li a {
+  font-size: 12px;
+  color: white;
+}
+
+#bg1 {
+  color: white;
+}
+#bg2 {
+  color: white;
+}
+
+#big21 div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#big21 li {
+  margin-left: 40px;
+}
+#big21 li a {
+  font-size: 12px;
+  color: white;
+}
+#showipad {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  padding-top: 50px;
+}
+#showipad {
+  display: flex;
+}
+#showipad li {
+  list-style-type: none;
+  padding: 5px;
+}
+#showipad li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showipad ul div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+
+#big1 li a {
+  font-size: 12px;
+  color: white;
+}
+#big1 li {
+  margin-left: 50px;
+}
+#bg1 li {
+  margin-left: 230px;
+}
+#bg1 section li a {
+  font-size: 12px;
+  color: white;
+}
+
+#bg1 {
+  color: white;
+}
+#bg2 {
+  color: white;
+}
+
+#big21 div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#big21 li {
+  margin-left: 40px;
+}
+#big21 li a {
+  font-size: 12px;
+  color: white;
+}
+#showwatch {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  padding-top: 50px;
+}
+#showwatch {
+  display: flex;
+}
+#showwatch li {
+  list-style-type: none;
+  padding: 5px;
+}
+#showwatch li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showwatch ul div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+
+#big11 li a {
+  font-size: 12px;
+  color: white;
+}
+#big11 li {
+  margin-left: 50px;
+}
+#bg11 li {
+  margin-left: 230px;
+}
+#bg11 section li a {
+  font-size: 12px;
+  color: white;
+}
+
+#bg11 {
+  color: white;
+}
+#bg21 {
+  color: white;
+}
+
+#big211 div a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.343);
+}
+#big211 li {
+  margin-left: 40px;
+}
+#big211 li a {
+  font-size: 12px;
+  color: white;
+}
+
+/*
+
+#showipad {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showipad li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showipad li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showwatch {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showwatch li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showwatch li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showvision {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showvision li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showvision li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showairpod {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showairpod li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showairpod li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showtv {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showtv li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showtv li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showenter {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showenter li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showenter li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showaccess {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showaccess li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showaccess li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#showsupport {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: -20px;
+}
+#showsupport li {
+  list-style-type: none;
+  padding: 10px;
+}
+#showsupport li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+} */
+
+/* ===========navbar conataint open end========= */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* =============hero page start======================= */
+
+.first {
+  text-align: center;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.first img {
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  margin-top: 48px;
+}
+
+.line1 {
+  position: absolute;
+  margin-top: -528px;
+  left: 42%;
+  color: white;
+  font-size: 28px;
+  z-index: 0;
+}
+
+.line2 {
+  position: absolute;
+  margin-top: -438px;
+  left: 35%;
+  color: white;
+  font-size: 30px;
+}
+.line3 {
+  position: absolute;
+  margin-top: -395px;
+  left: 42%;
+  color: rgb(67, 67, 241);
+  font-size: 25px;
+}
+/* =========hero page end=========== */
+
+/* ==========landing page ========== */
+
+.iphone {
+  text-align: center;
+}
+
+.iphone img {
+  margin-top: 10px;
+  width: 100%;
+  height: 628px;
+  background-size: cover;
+}
+.line4 {
+  position: absolute;
+  margin-top: -630px;
+  left: 45%;
+  color: black;
+  font-size: 28px;
+}
+
+.line5 {
+  position: absolute;
+  margin-top: -525px;
+  left: 38%;
+  color: black;
+  font-size: 30px;
+}
+.line6 {
+  position: absolute;
+  margin-top: -480px;
+  left: 44%;
+  color: rgb(67, 67, 241);
+  font-size: 25px;
+}
+.watch {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img1 {
+  position: relative;
+  width: 100%;
+  height: 634px;
+  background-size: cover;
+}
+.img2 {
+  position: absolute;
+  width: 180px;
+  margin-top: -600px;
+  left: 45%;
+}
+
+.line9 {
+  position: absolute;
+  margin-top: -528px;
+  left: 40%;
+  color: white;
+  font-size: 30px;
+}
+.line10 {
+  position: absolute;
+  margin-top: -480px;
+  left: 43%;
+  color: rgb(67, 67, 241);
+  font-size: 25px;
+}
+.main {
+  display: flex;
+}
+.watch1 {
+  margin-right: 5px;
+  width: 750px;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  margin-top: 15px;
+}
+.line11 {
+  position: absolute;
+  margin-top: -10px;
+  left: 21%;
+  color: black;
+  font-size: 15px;
+}
+
+.line12 {
+  position: absolute;
+  margin-top: 46px;
+  left: 22%;
+  color: rgb(115, 10, 10);
+  font-size: 14px;
+  font-weight: 20px;
+}
+.line13 {
+  position: absolute;
+  margin-top: 380px;
+  left: 17%;
+  color: black;
+  font-size: 22px;
+}
+.line14 {
+  position: absolute;
+  margin-top: 414px;
+  left: 18%;
+  color: rgb(67, 67, 241);
+  font-size: 18px;
+}
+.watch2 {
+  margin-left: 5px;
+  background-image: url("airpod.jpg");
+  width: 750px;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: -12px;
+}
+.line15 {
+  position: absolute;
+  margin-top: -5px;
+  right: 20%;
+  color: white;
+  font-size: 15px;
+}
+
+.line16 {
+  position: absolute;
+  margin-top: 53px;
+  right: 19%;
+  color: white;
+  font-size: 17px;
+}
+.line17 {
+  position: absolute;
+  margin-top: 102px;
+  right: 22%;
+  color: rgb(67, 67, 241);
+  font-size: 13px;
+}
+.main1 {
+  display: flex;
+}
+.macbook {
+  background-image: url("macbook.jpg");
+  width: 770px;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: -12px;
+}
+.line18 {
+  position: absolute;
+  margin-top: -5px;
+  left: 32%;
+  color: black;
+  font-size: 15px;
+}
+
+.line19 {
+  position: absolute;
+  margin-top: 53px;
+  left: 32%;
+  color: black;
+  font-size: 17px;
+}
+.line20 {
+  position: absolute;
+  margin-top: 90px;
+  left: 35%;
+  color: rgb(67, 67, 241);
+  font-size: 18px;
+}
+.ipad {
+  background-image: url("ipad.jpg");
+  width: 760px;
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: -12px;
+}
+.line21 {
+  position: absolute;
+  margin-top: -5px;
+  right: 20%;
+  color: white;
+  font-size: 15px;
+}
+
+.line22 {
+  position: absolute;
+  margin-top: 53px;
+  right: 19%;
+  color: white;
+  font-size: 17px;
+}
+.line23 {
+  position: absolute;
+  margin-top: 86px;
+  right: 20%;
+  color: rgb(67, 67, 241);
+  font-size: 13px;
+}
+/* ===========landing page end */
+
+/* ===========slider start */
+.slide {
+  width: 100%;
+  height: 628px;
+  background-color: none;
+  animation-name: apple;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  background-size: cover;
+}
+@keyframes apple {
+  0% {
+    background-image: url("Apple_TV_Foundation_key_art_graphic_header_4_1_show_home.jpg.large_2x.jpg");
+    background-size: cover;
+  }
+  14% {
+    background-image: url("Apple_TV_Flora_and_Son_key_art_graphic_header_4_1_show_home.jpg");
+    background-size: cover;
+  }
+
+  28% {
+    background-image: url("082923_Killers_Flower_Moon_Key_Art_Photo_Grid_01_post_photo_grid.jpg.large_2x.jpg");
+    background-size: cover;
+  }
+
+  42% {
+    background-image: url("Apple_TV_The_Super_Models_key_art_graphic_header_4_1_show_home.jpg.large_2x.jpg");
+    background-size: cover;
+  }
+  56% {
+    background-image: url("Apple-Today-at-Apple-session-Ted-Lasso-hero_big.jpg.slideshow-xlarge_2x.jpg");
+    background-size: cover;
+  }
+  70% {
+    background-image: url("Apple_TV_The_Changeling_key_art_graphic_header_4_1_show_home.jpg.large_2x.jpg");
+    background-size: cover;
+  }
+  100% {
+    background-image: url("the\ killers.jpeg");
+    background-size: cover;
+  }
+}
+
+/* ==========slider end============== */
+
+/* ============footer start========== */
+
+.tab {
+  display: flex;
+}
+#h {
+  width: 124 0px;
+}
+
+.footer {
+  background-color: silver;
+  font-size: small;
+  padding-top: 10px;
+  padding: 20px;
+  margin-top: 15px;
+}
+.footer p {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 20px;
+  margin-top: 4px;
+}
+
+.footer1 {
+  background-color: silver;
+  margin-right: 20%;
+  display: flex;
+  margin-top: -32px;
+  width: 100%;
+  padding-inline: 20px;
+}
+
+.firstdiv {
+  margin-left: 275px;
+  margin-top: 0px;
+}
+
+.firstdiv li {
+  list-style-type: none;
+}
+
+.firstdiv ul li a {
+  text-decoration: none;
+  color: black;
+}
+.seconddiv li {
+  list-style-type: none;
+}
+.thirddiv li {
+  list-style-type: none;
+}
+.fourthdiv li {
+  list-style-type: none;
+}
+.fifthdiv li {
+  list-style-type: none;
+}
+
+/* ==========footer end======== */
